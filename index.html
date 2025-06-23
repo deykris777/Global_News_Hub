@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global News Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="overlay">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Global News Hub 🌍</h1>
+        <p>Bringing the world to your screen. Updated. Trusted. Real-time.</p>
+        <div id="datetime"></div>
+      </div>
+    </section>
+
+  
+    <header>
+      <input type="text" id="searchInput" placeholder="🔍 Search headlines..." />
+      <div class="categories">
+        <button class="category-btn">🌐 World</button>
+        <button class="category-btn">💻 Tech</button>
+        <button class="category-btn">⚽ Sports</button>
+        <button class="category-btn">📈 Business</button>
+        <button class="category-btn">🏥 Health</button>
+      </div>
+    </header>
+
+    <!-- News Articles -->
+    <main id="news-container">
+      <p class="loading">Loading latest news...</p>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
